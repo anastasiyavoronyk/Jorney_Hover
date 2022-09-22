@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    >
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="content">
+        <div class="navbar">
+          <p class="logo">JOURNEY</p>
+          <i class="fa fa-table fa-lg"></i>
+          <i class="fa fa-comments-o fa-lg"></i>
+          <i class="fa fa-compass fa-lg"></i>
+          <span class="registration">
+            Welcome,
+            <a class="registration_link" href="#">Log In</a>
+            or
+            <a class="registration_link" href="#">Sign Up</a>
+          </span>
+        </div>
+        <div class="form-box">
+            <span class="square-green"></span>
+            <p class="name_form">Sign Up</p>
+            <a class="form_log" href="#">Log in</a>
+            <button href="#" class="button button-facebook"><i class="fa fa-facebook"></i> Facebook</button>
+            <button href="#" class="button button-google"><i class="fa fa-google-plus"></i> Google</button>
+            <p class="text_line">or</p>
+            <form id="registration_form">
+                <label
+                    class="form-label"
+                    for="firstName">
+                    <input class="form_item"
+                        id="firstName"
+                        type="text"
+                        placeholder="First Name"
+                        name="firstName"
+                        required/>
+                </label>
+                <label
+                    class="form-label"
+                    for="LastName">
+                    <input class="form_item"
+                        id="LastName"
+                        type="text"
+                        placeholder="Last Name"
+                        name="LastName"
+                        required/>
+                </label>
+                <label
+                class="form-label"
+                for="Email">
+                <input class="form_item"
+                    id="Email"
+                    type="text"
+                    placeholder="Email"
+                    name="Email"
+                    required/>
+                </label>
+                <label
+                class="form-label"
+                for="ChoosePassword">
+                <input class="form_item"
+                    id="ChoosePassword"
+                    type="password"
+                    placeholder="Choose Password"
+                    name="ChoosePassword"
+                    required/>
+                </label>
+                <label
+                class="form-label"
+                for="ConfirmPassword">
+                <input class="form_item"
+                    id="ConfirmPassword"
+                    type="password"
+                    placeholder="Confirm Password"
+                    name="ConfirmPassword"
+                    required/>
+                </label>
+                <input type="checkbox" id="cb1"> <label for="cb1">Agree our <a class="checkbox_link" href="#">Terms & Conditions</a> </label>
+                <button href="#" class="button_create"> Create Account </button>
+            </form>
+        </div> 
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
